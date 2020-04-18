@@ -1,3 +1,4 @@
+---
 kind: pipeline
 type: kubernetes
 name: greeting
@@ -23,3 +24,8 @@ steps:
   commands:
   - echo bonjour
   - echo monde
+---
+kind: signature
+hmac: 81e624acba4797ea65a7dac2c62db4c0bf646107d49492d6d762ac7f89186ebd
+
+...
